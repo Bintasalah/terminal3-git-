@@ -1,0 +1,10 @@
+  214  git init
+  215  curl -o  wilders.csv 
+  216  head wilders.csv 
+  217  head wilders.csv 
+  218  grep "France,2019,PHP" wilders.csv | wvc-l 
+  219  grep "France,2019,PHP" wilders.csv | wvc-l > php_france_2019.csv 
+  220  grep "France,2019,PHP" wilders.csv | wc -l > php_france_2019.csv 
+  221  grep "JavaScript" wilders.csv | grep 6E 'Biarritz|Toulouse' > javascript_biarritz_toulouse.csv
+  222  grep "JavaScript" wilders.csv | grep -E 'Biarritz|Toulouse' > javacript_biarritz_toulouse.csv
+  223  history | tail -n10 > history.txt
